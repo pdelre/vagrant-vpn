@@ -18,5 +18,6 @@ Vagrant.configure('2') do |config|
   config.vm.provision :shell, :path => 'scripts/desktop.sh'
   config.vm.provision :shell, :path => 'scripts/network.sh'
   config.vm.provision :shell, :path => 'scripts/user.sh'
+  config.vm.provision :shell, :path => 'scripts/rdp.sh'
 
 end
