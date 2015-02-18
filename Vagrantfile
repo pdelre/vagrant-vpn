@@ -16,5 +16,6 @@ Vagrant.configure('2') do |config|
   config.vm.provision :shell, :inline => 'apt-get update', :run => :always
 
   config.vm.provision :shell, :path => 'scripts/desktop.sh'
+  config.vm.provision :shell, :path => 'scripts/network.sh'
 
 end
