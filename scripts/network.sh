@@ -7,3 +7,6 @@ service network-manager restart
 
 # openconnect vpn
 apt-get install -y network-manager-openconnect
+
+# firewall
+ufw enable
